@@ -64,3 +64,60 @@ body{
 	padding-top: 0px;
 
 }
+.threePanes{
+	padding: 100px;
+}
+.onePanelHeader,.twoPanelHeader,.threePanelHeader{
+	border-left: 5px solid #BDBB83;
+	text-decoration: none;
+	padding-left: 10px;
+	color:#a0a3ac;
+	letter-spacing: 1px;
+	font-family:'Open Sans', sans-serif;
+	font-weight: 300;
+	font-size: 20px;
+}
+.onePanelHeader:hover,.twoPanelHeader:hover,.threePanelHeader:hover{
+	text-decoration: none;
+}
+.tinyLinks{
+	float: right;
+	text-decoration: none;
+	letter-spacing: 1px;
+	color: black;
+}
+.dev,.abt,.cnt{
+	margin-top: 3px;
+	color: black;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+}
+.dev:hover,.abt:hover,.cnt:hover{
+	text-decoration: none;
+	cursor: pointer;
+	border-left: 1px solid #BDBB83;
+}
+.logoImg{
+	width: 90%;
+	height: 60%;
+	margin-top: 20%;
+}
+.featureB1,.featureB2,.featureB3{
+	margin-top: 20px;
+	width: 300px;
+	height: 70px;
+	border: none;
+	display: block;
+}
+.featureB1{
+	background-color: #66c698;
+}
+.featureB2{
+	background-color: #c7c8cb;
+}
+.featureB3{
+	background-color: #ffd866;
+}
+.featureB1:hover,.featureB2:hover,.featureB3:hover{
+
+}
