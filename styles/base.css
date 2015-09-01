@@ -1,0 +1,42 @@
+.logo{
+	background-color: #BDBB83 ;
+	height: 150px;
+	width: 200px;
+	position: fixed;
+}	
+body{
+	padding: 0;
+	padding: 100px;
+	padding-right: 100px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}	
+.navBar{
+	position: absolute;
+	top: 25%;
+	margin: auto;
+	font-weight: 700;
+	color: black;
+	padding-top: 20px;
+	border-top: 5px solid #e5e9f6;
+}
+.navItem{
+	display:inline;
+	margin-right: 100px;
+	padding-right: 100px;
+	color: black;
+}
+.navItem:hover{
+	color: #BDBB83;
+	text-decoration: none;
+}
+.mainBody{
+	background-color: #f9fafe;
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: auto;
+	min-height: 100%;
+	min-width: 100%;
+	top: 40%;
+}
