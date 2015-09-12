@@ -254,3 +254,6 @@ html{
 	letter-spacing: 1px;
 	line-height: 190%;
 }
+.navItem:hover{
+	cursor: pointer;
+}

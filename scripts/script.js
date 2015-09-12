@@ -34,3 +34,11 @@ $(window).load(function(){
   $('#preloader').fadeOut('slow',function(){$(this).remove();});
 });
 });
+
+//page navigation
+$(".news").on("click",function(){
+  window.location = "news.html"
+})
+$(".home").on("click",function(){
+  window.location = "index.html"
+})
