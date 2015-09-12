@@ -27,3 +27,10 @@ $("#slides").slidesjs({
         // [number] restart delay on inactive slideshow
     }
       });
+
+//preloader
+jQuery(document).ready(function($) {  
+$(window).load(function(){
+  $('#preloader').fadeOut('slow',function(){$(this).remove();});
+});
+});
