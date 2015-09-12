@@ -257,3 +257,8 @@ html{
 .navItem:hover{
 	cursor: pointer;
 }
+.fb-page{
+	margin-top: 20px;
+	width: 100%;
+	
+}
