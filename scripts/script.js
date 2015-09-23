@@ -29,9 +29,19 @@ $("#slides").slidesjs({
       });
 
 //preloader
-jQuery(document).ready(function($) {  
+jQuery(document).ready(function($) {
 $(window).load(function(){
   $('#preloader').fadeOut('slow',function(){$(this).remove();});
+  $(".headerCircle").css("visibility","visible");
+  $(".headerCircle").addClass("animated bounceInDown")
+  setTimeout(function(){
+    $(".logo").css("visibility","visible");
+    $(".logo").addClass("animated fadeIn")
+  }, 1000);
+  setTimeout(function(){
+    $(".mainBody").css("visibility","visible");
+    $(".mainBody").addClass("animated fadeIn")
+  }, 2000);
 });
 });
 
@@ -43,4 +53,44 @@ $(".home").on("click",function(){
   window.location = "index.html"
 })
 
-//navbar
+//footer
+var first = true
+$(window).scroll(function() {
+   if($(window).scrollTop() + $(window).height() == $(document).height()) {
+       $(".footer").css('visibility',"visible");
+       $(".footer").addClass(" animated bounceInUp")
+       if (first==false){
+       $(".footer").fadeIn()
+     }
+     first = false;
+   }
+});
+var lastScrollTop = 0;
+$(window).scroll(function(event){
+   var st = $(this).scrollTop();
+   if (st > lastScrollTop){//downscroll
+     console.log("downscroll");
+     $(".footer").fadeOut()
+     $(".header2").removeClass("animated fadeInDown");
+     $(".header2").addClass("animated fadeOutUp");
+
+   } else { //upscroll
+     $(".header2").removeClass("animated fadeOutUp");
+     $(".header2").addClass("animated fadeInDown");
+   }
+   lastScrollTop = st;
+});
+
+
+//header transformation
+var first2 = true;
+window.onscroll = function(e){
+console.log($(window).scrollTop())
+if ($(window).scrollTop() >= 350){
+  if (first2){
+  $(".headerCircle").fadeOut()
+  $(".logo").fadeOut()
+  $(".header2").css("visibility","visible");
+}
+}
+};

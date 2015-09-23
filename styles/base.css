@@ -1,5 +1,5 @@
 /* Preloader */
-.js div#preloader { position: fixed; left: 0; top: 0; z-index: 999; width: 100%; height: 100%; overflow: visible; background: #333 url('http://files.mimoymima.com/images/loading.gif') no-repeat center center; }
+.js div#preloader { position: fixed; left: 0; top: 0; z-index: 999; width: 100%; height: 100%; overflow: visible; background: white url('../img/loading/load.gif') no-repeat center center; }
 
 
 body{
@@ -266,4 +266,61 @@ html{
 }
 .signupforNL:focus{
 	outline: none;
+}
+.footer{
+	margin-top: 100px;
+	min-height: 50px;
+	background-color: #a3dcc1;
+	min-width: 100%;
+	position: fixed;
+	display: block;
+	bottom: 0;
+	visibility: hidden;
+}
+.headerCircle{
+	width: 210px;
+	height: 200px;
+	margin-left: 40%;
+	visibility: hidden;
+	margin-top: 15%;
+}
+.logo{
+	visibility: hidden;
+	margin-left: 37%;
+	position: absolute;
+	top: 50%;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+.bar-left{
+	float: left;
+	margin-right: 50px;
+}
+.bar-right{
+	float: left;
+	margin-left: 50px;
+}
+.mainBody{
+	visibility: hidden;
+	margin-top: 150px;
+}
+.header2{
+	display: block;
+	position: fixed;
+	top: 0;
+	z-index: 9999;
+	min-height: 100px;
+	min-width: 100%;
+	background-color: #f9fafe;
+	visibility: hidden;
+}
+.tinybubbles{
+	padding-top: 10px;
+	position: absolute;
+	display: inline;
+	height: 100px;
+	width: 100px;
+	top: 70%;
+	margin-bottom: 10px;
 }
