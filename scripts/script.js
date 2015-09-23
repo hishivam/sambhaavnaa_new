@@ -42,3 +42,5 @@ $(".news").on("click",function(){
 $(".home").on("click",function(){
   window.location = "index.html"
 })
+
+//navbar
