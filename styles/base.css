@@ -26,6 +26,7 @@ html{
       padding: 100px;
       padding-top: 0px;
       padding-bottom: 0px;
+			max-height: 500px;
 }
 .shortLinksWrapper{
 	padding-left: 100px;
@@ -294,12 +295,16 @@ html{
 	margin: auto;
 }
 .bar-left{
-	float: left;
-	margin-right: 50px;
+	position: absolute;
+	left: 20px;
+	padding-top: 35px;
+	padding-left: 230px;
 }
 .bar-right{
-	float: left;
-	margin-left: 50px;
+	position: absolute;
+	right: 20px;
+	padding-top: 35px;
+	padding-right: 230px;
 }
 .mainBody{
 	visibility: hidden;
@@ -323,4 +328,121 @@ html{
 	width: 100px;
 	top: 70%;
 	margin-bottom: 10px;
+}
+.header2Circle{
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: auto;
+	height: 150px;
+	width: 160px;
+}
+.nav-link{
+	font-size: 25px;
+	color: black;
+	margin-left: 20px;
+}
+.navlink:hover{
+	cursor: pointer;
+}
+.footerCircle{
+	height: 70px;
+	width: 75px;
+	position: absolute;
+	left: 10px;
+	bottom: 5px;
+	margin: auto;
+}
+.footerMain{
+	color: white;
+	position: absolute;
+	left: 100px;
+	padding-top: 10px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+}
+.footerLinks{
+	float: right;
+	position: absolute;
+	right: 20px;
+	color: white;
+	padding-top: 10px;
+	font-size: 15px;
+}
+.UEfeature{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+}
+.UESimg{
+	height: 50px;
+	width: 50px;
+	border-radius: 50%;
+}
+.upcomingEvents{
+	padding: 10px;
+	margin-top: 10px;
+}
+.eventsPane_short{
+	background-color: #efefef;
+	margin-top: 10px;
+}
+.eventsPane{
+	margin-top: 10px;
+}
+.eventTitle{
+	font-size: 20px;
+	font-weight: bold;
+	margin-right: 70%;
+}
+.eventDates{
+
+}
+.eventDesc{
+
+}
+.pane10short{
+	margin-left: 15px;
+	border-bottom: 1px solid black;
+	margin-bottom: 20px;
+}
+.apply{
+	height: 50px;
+	width: 100px;
+	border: none;
+	background-color: #66c698;
+}
+.poster{
+	height: 400px;
+	width: 300px;
+	border: none;
+	margin: 50px;
+}
+.poster:hover{
+	cursor: pointer;
+}
+.posters{
+	padding: 10px;
+}
+.postersHeader{
+	font-weight: bold;
+	font-size: 30px;
+	border-left: 5px solid #BDBB83;
+	padding-left: 10px;
+	margin-top: 20px;
+}
+.posters-old{
+	background-color: #efefef;
+}
+.smallCircle{
+	height: 100px;
+	width: 100px;
+	border-radius: 50%;
+}
+.container-oldevents{
+	margin-top: 20px;
+	border-bottom: 1px solid #ced1dd;
+}
+.container-oldevents-1{
+	margin-top: 20px;
 }

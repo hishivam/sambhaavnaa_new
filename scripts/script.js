@@ -54,15 +54,12 @@ $(".home").on("click",function(){
 })
 
 //footer
-var first = true
 $(window).scroll(function() {
    if($(window).scrollTop() + $(window).height() == $(document).height()) {
        $(".footer").css('visibility',"visible");
-       $(".footer").addClass(" animated bounceInUp")
-       if (first==false){
        $(".footer").fadeIn()
-     }
-     first = false;
+       $(".footer").addClass(" animated fadeInUp")
+      console.log("bottom")
    }
 });
 var lastScrollTop = 0;
@@ -70,11 +67,14 @@ $(window).scroll(function(event){
    var st = $(this).scrollTop();
    if (st > lastScrollTop){//downscroll
      console.log("downscroll");
-     $(".footer").fadeOut()
+
      $(".header2").removeClass("animated fadeInDown");
      $(".header2").addClass("animated fadeOutUp");
 
    } else { //upscroll
+     console.log("upscroll");
+     $(".footer").fadeOut()
+     $(".footer").removeClass(" animated fadeInUp")
      $(".header2").removeClass("animated fadeOutUp");
      $(".header2").addClass("animated fadeInDown");
    }
@@ -85,7 +85,6 @@ $(window).scroll(function(event){
 //header transformation
 var first2 = true;
 window.onscroll = function(e){
-console.log($(window).scrollTop())
 if ($(window).scrollTop() >= 350){
   if (first2){
   $(".headerCircle").fadeOut()
@@ -94,3 +93,11 @@ if ($(window).scrollTop() >= 350){
 }
 }
 };
+$(".poster").hover(function(){
+  $(this).addClass("animated flipInX");
+  $(this).attr("src","img/posters/buniyaad.jpg");
+})
+$(".poster").mouseout(function(){
+  $(this).removeClass("animated flipInX");
+  $(this).attr("src","img/posters/buniyaad.jpg")
+})
