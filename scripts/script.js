@@ -42,6 +42,9 @@ $(window).load(function(){
     $(".mainBody").css("visibility","visible");
     $(".mainBody").addClass("animated fadeIn")
   }, 2000);
+  setTimeout(function(){
+    swal({   title: "Sign Up to recieve our newsletters!",   text: "We don't spam.",   type: "input",   showCancelButton: true,   closeOnConfirm: true,   animation: "slide-from-top",   inputPlaceholder: "Email" });
+  }, 6000);
 });
 });
 
@@ -100,4 +103,7 @@ $(".poster").hover(function(){
 $(".poster").mouseout(function(){
   $(this).removeClass("animated flipInX");
   $(this).attr("src","img/posters/buniyaad.jpg")
+})
+$(".headerCircle2").on("click",function(){
+  window.location = "index.html"
 })

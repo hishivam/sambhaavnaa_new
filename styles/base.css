@@ -22,11 +22,10 @@ html{
 	min-width: 100%;
 }
 #slides {
-      display:none;
       padding: 100px;
       padding-top: 0px;
       padding-bottom: 0px;
-			max-height: 500px;
+			height: 400px;
 }
 .shortLinksWrapper{
 	padding-left: 100px;
@@ -298,13 +297,13 @@ html{
 	position: absolute;
 	left: 20px;
 	padding-top: 35px;
-	padding-left: 230px;
+	padding-left: 80px;
 }
 .bar-right{
 	position: absolute;
 	right: 20px;
 	padding-top: 35px;
-	padding-right: 230px;
+	padding-right: 140px;
 }
 .mainBody{
 	visibility: hidden;
@@ -445,4 +444,14 @@ html{
 }
 .container-oldevents-1{
 	margin-top: 20px;
+}
+.header2Circle{
+	cursor: pointer;
+}
+.header2Circle:hover{
+
+}
+.nav-link:hover{
+	cursor: pointer;
+	text-decoration: none;
 }
