@@ -313,7 +313,7 @@ html{
 	display: block;
 	position: fixed;
 	top: 0;
-	z-index: 9999;
+	z-index: 5;
 	min-height: 100px;
 	min-width: 100%;
 	background-color: #f9fafe;
@@ -454,4 +454,25 @@ html{
 .nav-link:hover{
 	cursor: pointer;
 	text-decoration: none;
+}
+.featureB3-1{
+	margin-top: 20px;
+	width: 300px;
+	height: 70px;
+	border: none;
+	display: block;
+	background-color: #C35536;
+	margin-bottom: 20px;
+}
+.dd1{
+	display: none;
+	z-index: 999;
+	position: absolute;
+	margin: auto;
+	border: 1px solid black;
+}
+.dd1img{
+	width: 100px;
+	height: auto;
+	z-index: 9999;
 }
