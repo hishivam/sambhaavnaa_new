@@ -32,11 +32,11 @@ $("#slides").slidesjs({
 jQuery(document).ready(function($) {
 $(window).load(function(){
   $('#preloader').fadeOut('slow',function(){$(this).remove();});
-  $(".headerCircle").css("visibility","visible");
-  $(".headerCircle").addClass("animated bounceInDown")
+  /*$(".headerCircle").css("visibility","visible");
+  $(".headerCircle").addClass("animated bounceInDown")*/
   setTimeout(function(){
-    $(".logo").css("visibility","visible");
-    $(".logo").addClass("animated fadeIn")
+  /*  $(".logo").css("visibility","visible");
+    $(".logo").addClass("animated fadeIn")*/
   }, 1000);
   setTimeout(function(){
     $(".mainBody").css("visibility","visible");
