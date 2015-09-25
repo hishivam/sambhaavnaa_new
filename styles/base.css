@@ -567,3 +567,34 @@ html{
 .mpp{
 	color: #B44A44;
 }
+.coltext{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border-bottom: 1px solid #ced1dd;
+	padding-bottom: 50px;
+}
+.whitey{
+	background-color: white;
+	margin-top: 20px;
+}
+.whiteyheaderimg{
+	padding-top: 20px;
+	height: 300px;
+	width: 100%;
+}
+.med{
+	width: 150px;
+}
+.cfb{
+	background-color: #c7c8cb;
+}
+.cfc{
+	background-color: #66c698;
+}
+#map {
+  width: 500px;
+  height: 400px;
+	margin-top: 20px;
+	width: 100%;
+	border: 1px solid #ced1dd;
+}

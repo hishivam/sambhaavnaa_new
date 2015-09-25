@@ -107,3 +107,23 @@ $(".poster").mouseout(function(){
 $(".headerCircle2").on("click",function(){
   window.location = "index.html"
 })
+function initialize() {
+        var mapCanvas = document.getElementById('map');
+        var mapOptions = {
+          center: new google.maps.LatLng(32.1079269, 76.5731782),
+          zoom: 11,
+          mapTypeId: google.maps.MapTypeId.ROADMAP
+        }
+        var map = new google.maps.Map(mapCanvas, mapOptions)
+      }
+      google.maps.event.addDomListener(window, 'load', initialize);
+
+$(".hrtc").on("click",function(){
+  window.location = "http://www.hrtc.gov.in"
+})
+$(".irctc").on("click",function(){
+  window.location = "http://www.irctc.co.in"
+})
+$(".redbus").on("click",function(){
+  window.location = "http://www.redbus.in"
+})
