@@ -560,3 +560,10 @@ html{
 .featpost:hover{
 	cursor: pointer;
 }
+.mp{
+	float: right;
+	color: #B44A44;
+}
+.mpp{
+	color: #B44A44;
+}
