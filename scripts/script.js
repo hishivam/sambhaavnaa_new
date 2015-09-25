@@ -107,11 +107,3 @@ $(".poster").mouseout(function(){
 $(".headerCircle2").on("click",function(){
   window.location = "index.html"
 })
-$(".parti").hover(function(){
-  $(".dd1").css("display","block");
-  $(".dd1").addClass("animated fadeInY")
-})
-$(".parti").mouseout(function(){
-  $(".dd1").addClass("animated fadeOutY");
-  $(".dd1").css("display","none");
-})
