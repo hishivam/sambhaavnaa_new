@@ -598,3 +598,38 @@ html{
 	width: 100%;
 	border: 1px solid #ced1dd;
 }
+.programS{
+	width: 200px; !important
+	height: 50px; !important
+}
+.coltext-nobor{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.vln:hover,.fls:hover,.dnt:hover{
+	cursor: pointer;
+}
+.oneSlidePara:hover{
+	cursor: pointer;
+}
+.bubbles{
+	margin-top: 20px;
+	height: 100px;
+	width: auto;
+}
+.color1{
+	color: #6BA252;
+}
+.color2{
+	color: #D28939;
+}
+.color3{
+	color: #C1563C;
+}
+.color4{
+	color: #649FCA;
+}
+p{
+	text-align: justify;
+	text-justify: inter-word;
+}

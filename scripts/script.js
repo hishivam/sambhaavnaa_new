@@ -110,7 +110,7 @@ $(".headerCircle2").on("click",function(){
 function initialize() {
         var mapCanvas = document.getElementById('map');
         var mapOptions = {
-          center: new google.maps.LatLng(32.1079269, 76.5731782),
+          center: new google.maps.LatLng(32.6279269, 76.3431782), //32 6' 26.89'' N 76 34' 25.30'' E
           zoom: 11,
           mapTypeId: google.maps.MapTypeId.ROADMAP
         }
@@ -126,4 +126,43 @@ $(".irctc").on("click",function(){
 })
 $(".redbus").on("click",function(){
   window.location = "http://www.redbus.in"
+})
+$(".vln").on("click",function(){
+  window.location = "volunteer.html"
+})
+$(".fls").on("click",function(){
+  window.location = "fellow.html"
+})
+$(".dnt").on("click",function(){
+  window.location = "campusp.html"
+})
+$(".mpp").on("click",function(){
+  window.location = "events.html"
+})
+$(".colab").on("click",function(){
+  window.location = "collaborate.html"
+})
+$(".bhillagers").on("click",function(){
+  window.location = "volunteer.html"
+})
+$(".dirtyfellows").on("click",function(){
+  window.location = "fellow.html"
+})
+$(".campus").on("click",function(){
+  window.location = "campusp.html"
+})
+$(".ov").on("click",function(){
+  window.location = "ourvision.html"
+})
+$(".ulc").on("click",function(){
+  window.location = "http://" /*URL of UDAAN BLOG */
+})
+$(".cp").on("click",function(){
+  window.location = "campusp.html"
+})
+$(".r").on("click",function(){
+  window.location = "resources.html"
+})
+$(".vu").on("click",function(){
+  window.location = "visitus.html"
 })
