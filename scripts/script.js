@@ -96,6 +96,9 @@ if ($(window).scrollTop() >= 350){
 }
 }
 };
+
+
+
 $(".poster").hover(function(){
   $(this).addClass("animated flipInX");
   $(this).attr("src","img/posters/buniyaad.jpg");
@@ -104,6 +107,10 @@ $(".poster").mouseout(function(){
   $(this).removeClass("animated flipInX");
   $(this).attr("src","img/posters/buniyaad.jpg")
 })
+
+
+
+
 $(".headerCircle2").on("click",function(){
   window.location = "index.html"
 })
